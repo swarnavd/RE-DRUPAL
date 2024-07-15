@@ -1,0 +1,25 @@
+uuid: a227e5af-8c36-4c6d-a0dc-c0391248d5b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about-us
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_aboutus
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:about-us'
+settings:
+  id: 'system_menu_block:about-us'
+  label: 'About Us'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

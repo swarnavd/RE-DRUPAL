@@ -1,0 +1,15 @@
+uuid: 2806502f-bfcb-4769-98e0-4845a78906b5
+langcode: en
+status: true
+dependencies: {  }
+name: custom_thumbnail
+label: 'Custom thumbnail'
+effects:
+  839010e0-73de-4a2a-8709-7c4a1994f5f7:
+    uuid: 839010e0-73de-4a2a-8709-7c4a1994f5f7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 100
+      anchor: center-center

@@ -1,0 +1,24 @@
+uuid: 70cf9e3e-6447-4c6e-afcd-df7f50eaf7cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_categories
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__recent_categories_block_1
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'views_block:recent_categories-block_1'
+settings:
+  id: 'views_block:recent_categories-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

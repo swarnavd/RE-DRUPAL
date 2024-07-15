@@ -1,0 +1,29 @@
+uuid: f187a878-c6ea-48e0-97e3-b7939e846514
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sports
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__sports_block_1
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:sports-block_1'
+settings:
+  id: 'views_block:sports-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
