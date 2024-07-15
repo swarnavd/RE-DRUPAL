@@ -1,0 +1,25 @@
+uuid: 312c0d47-37be-42c7-be06-688b6ff82395
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.contact-us
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_contactus
+theme: olivero
+region: footer_bottom
+weight: -7
+provider: null
+plugin: 'system_menu_block:contact-us'
+settings:
+  id: 'system_menu_block:contact-us'
+  label: 'Contact Us'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
